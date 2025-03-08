@@ -1,7 +1,7 @@
 name = "GreenFunc"
 uuid = "9efc7ea6-d529-4241-ab29-dcf68b94af7c"
 authors = ["Tao Wang", "Xiansheng Cai", "Pengcheng Hou", "Zhiyi Li", "Kun Chen"]
-version = "0.2.6"
+version = "0.3.0"
 
 [deps]
 BrillouinZoneMeshes = "9f696214-9961-49f3-89a2-cb1ea204eb6e"
@@ -14,8 +14,8 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
-BrillouinZoneMeshes = "0.2.2"
-CompositeGrids = "0.1"
+BrillouinZoneMeshes = "0.2.2,0.3"
+CompositeGrids = "0.1,0.2"
 Lehmann = "0.2"
 StaticArrays = "1"
 julia = "1.6, 1.7, 1.8, 1.9"
